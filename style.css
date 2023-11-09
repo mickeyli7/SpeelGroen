@@ -17,7 +17,7 @@ body.page1 {
     background-image: url('img/speeladam.jpg');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-position-y: calc(10%);
+    background-position-y: 9%;
     background-size: contain;
 }
 
@@ -27,7 +27,7 @@ body.page2 {
     background-image: url('img/water.pomp.jpg');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-position-y: calc(10%);
+    background-position-y: 10%;
     background-size: contain;
 }
 
@@ -37,7 +37,7 @@ body.page3 {
     background-image: url('img/wall.colors.jpg');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-position-y: calc(5%);
+    background-position-y: 5%;
     height: 50%;
     background-size: contain;
 }
@@ -48,7 +48,7 @@ body.page4 {
     background-image: url('img/glijbaan.jpg');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-position-y: calc(15%);
+    background-position-y: 14%;
     background-size: contain;
 }
 
@@ -147,10 +147,11 @@ h3 {
 .introbox {
     display: flex;
     flex-direction: column;
-    padding: 10% 5%;
+    padding: 8% 5%;
     background-color: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin: 0% 15%;
+    margin: 0% 7%;
+    width: 76%;
 }
 
 .divide {
@@ -206,7 +207,7 @@ h3 {
 }
 
 .homecontainer:nth-of-type(3) img {
-    width: 800%;
+    width: 585%;
 }
 
 .info {
@@ -279,7 +280,6 @@ body.page3 .text-with-image img:nth-of-type(3) {
 
 .map {
     width: 100%;
-    /* height: auto; */
 }
 
 .scroll-to-top {
